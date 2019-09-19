@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+body{
+    background-image: url("theone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+} 
+
+header{
+    height: 100px;
+    background-color: #add8e6;
+    border: 0.5px solid rgb(11, 162, 165);
+    display: flex;
+    padding: 15px;
+}
+
+.header-logo{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+ h2{
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.logo-p{
+    margin-left: 50px;
+    font-size: 0.7em;
+    color: #ffffff;
+    position: absolute;
+    left:0;
+    padding-top: 40px;
+}
+.nav-links{
+    letter-spacing: 3px;
+   
+}
+.nav-links:hover{
+   color: #7ab699;
+   
+}
+
+.header-ul{
+    margin-left: 50px;
+}
+.li-header{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 25px 25px 0px 25px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.opacity-div{
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    background: rgba(19, 22, 19, 0.1);
+    opacity: 0.9;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 5px;
+    padding-top: 60px;
+    margin-top: 60px;
+}
+.opacity-p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.opacity-button{
+    padding: 40px;
+    border: 1px solid #eee;
+    border-radius: 25px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 40px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.opacity-button:hover {
+background-color: #add8e6;
+
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: #add8e6;
+    color: #ffffff;
+    font-family: 'Cabin', sans-serif;
+
+    padding: 10px;
+}
+
+
+

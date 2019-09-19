@@ -1,0 +1,171 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Chilanka', cursive;
+}
+body{
+   background-image: url("../theone.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+   width: 100%;
+}
+
+.main-calc-div{
+   padding: 20px 50px;
+   text-align: center;
+   margin: 20px;
+}
+
+.intro-calc{
+   color: #ffffff;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 60px;
+   cursor: context-menu;
+   font-family: 'Chilanka', cursive;
+}
+
+.intro-calc2{
+   color: #ffffff;
+   font-size: 16px;
+   text-align: right;
+   margin: 20px;
+   margin-top: 60px;
+   cursor: context-menu;
+   font-family: 'Chilanka', cursive;
+}
+
+.title-calc{
+   color: #ffffff;
+   padding-top: 15px;
+   margin: 0 auto;
+   font-size: 2em;
+   margin: 20px;
+}
+
+.weightInputs{
+   display: flex;
+   align-items: center;
+   width: 40%;
+   margin: 20px;
+}
+
+.weightInputs input{
+   padding: 5px;
+   border-radius: 30px;
+   border: 1px solid #DD8BB4;
+   margin: 0 10px;
+   color: #000000;
+   font-size: 18px;
+   margin: 20px;
+}
+
+.heightInputs{
+   display: flex;
+   align-items: center;
+   width: 40%;
+}
+
+.heightInputs input{
+   padding: 5px;
+   border-radius: 30px;
+   border: 1px solid #DD8BB4;
+   margin: 0 10px;
+   color: #000000;
+   font-size: 18px;
+}
+
+
+.fa-arrow-right{
+   color: #ffffff;
+}
+
+.btn-holder{
+   width: 100%;
+}
+
+.btn-holder button{
+   width: 400px;
+height: 40px;
+text-align: center;
+border: 1px solid #DD8BB4;
+background-color: #DD8BB4;
+border-radius: 35px;
+margin-top: 15px;
+color: #ffffff;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 2.5px;
+cursor: pointer;
+}
+
+button:hover{
+background-color: #fccdeb;
+}
+
+
+.table-td{
+   color: #ffffff;
+   font-size: 22px;
+}
+
+
+
+.form-calc{
+   width: 100%;
+   padding: 10px;
+   display: flex;
+   line-height: 50px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.weightInputs{
+   display: flex;
+}
+
+.result-holder{
+   text-align: center;
+   position: relative;
+   background-color: #fccdeb;
+   width: 40%;
+   left: 400px;
+   
+}
+
+.result-holder{
+   font-size: 1.4em;
+   color: rgb(0, 0, 0);
+}
+
+.comment{
+   font-size: 1.4em;
+   color: rgb(0, 0, 0);
+   position: absolute;
+   background-color: #fccdeb;
+   padding: 25px;
+   border: 1px solid #DD8BB4;
+   
+}
+
+#back-button{
+   font-family: 'Chilanka', cursive;
+   font-size: 1em;
+   background-color: rgb(235, 124, 179);
+   cursor: pointer;
+   width: 30%;
+   height: 30px;
+   margin: 15px;
+   border: 1px solid #DD8BB4;
+   border-radius: 10px;
+   color: #ffffff;
+}
+
+#back-button:hover{
+   background-color: #DD8BB4;
+}
+
+select{
+   display: none;
+}

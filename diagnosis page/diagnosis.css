@@ -1,0 +1,36 @@
+body{
+    background-color: #71bcd8;
+    color: #ffffff;
+    font-family: 'Abel', sans-serif;
+ }
+
+ .diagnosis-intro{
+     font-size: 24px;
+     text-align: center;
+     line-height: 2em;
+     margin-top: 60px;
+     margin-left: 35px;
+     font-family: 'Josefin Slab', serif;
+ }
+
+ .title{
+     text-align: center;
+ }
+
+ #back-button{
+    width: 25%;
+    height: 40px;
+    border: 1px solid rgb(11, 162, 165);
+    border-radius: 25px;
+    background-color: rgb(11, 162, 165);
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 350px; 
+    left: 600px;
+}
+
+#back-button:hover{
+background: #7ab699;
+}

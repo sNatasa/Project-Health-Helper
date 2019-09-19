@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("../theone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    width: 100%;
+}
+
+.login-page{
+    width: 360px;
+    padding: 10% 0 0 ;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: #a5d5e5;
+    opacity: 0.9;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+   /* display: flex;
+   flex-flow: column; */
+
+}
+
+.form input{
+    font-family: 'Chilanka', cursive;
+outline: 1;
+background: #f2f2f2;
+width: 100%;
+border: 0;
+margin: 0 0 15px;
+padding: 15px;
+box-sizing: border-box;
+font-size: 14px;
+}
+
+.form button{
+    font-family: 'Chilanka', cursive;
+    text-transform: uppercase;
+    outline: 0;
+    background: #549cb4;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.message{
+    color: rgb(61, 60, 60);
+    margin: 15px 0 0 ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form button:hover, .form button:active{
+    background: #4088a0
+    
+}
+
+.form .message a{
+    color: rgb(243, 241, 241);
+    text-decoration: none;
+}
+.form .message a:hover{
+    color: #fff;
+}
+
+ .form .register-form{
+     display: none; 
+     
+} 
+
+
+#back-button{
+    width: 25%;
+    height: 40px;
+    border: 1px solid rgb(11, 162, 165);
+    border-radius: 25px;
+    background-color: rgb(11, 162, 165);
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 25px; 
+   
+}
+
+#back-button:hover{
+background: #7ab699;
+}
